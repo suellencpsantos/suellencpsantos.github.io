@@ -1,0 +1,199 @@
+﻿#foto img{
+	height:500px;
+	width:100%;
+}
+
+body{
+	background-image: url("../img/teste9.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#cabecalho{
+	background-image: url("../img/teste6.jpg");
+}	
+
+#cabecalho h1{
+	color: black;
+	font-size: 6.0em;
+	text-align: center;
+}	
+
+#cabecalho p{
+	color: white;
+	font-size: 2.0em;
+	text-align: center;
+}	
+
+.bxslider{
+	height:30%;
+	width: 30%;
+}
+	
+.bxslider img{
+	height: 30%;
+	width: 30%;
+}
+
+.bxslider h1{
+	text-shadow: -0.1em -0.1em black;
+	font-size: 3.0em;
+	position: absolute;
+	color: white;
+	margin-top: -150px;
+	margin-left: 10px;
+	
+}
+.bxslider  p{
+	text-shadow: -0.1em -0.1em black;
+	font-size: 2.0em;
+	position: absolute;
+	color: white;
+	margin-top: -100px;
+	margin-left: 20px;
+}
+
+#campos{
+	height: 30%;
+	width: 30%;
+	align: center
+}
+	
+.container h3{
+	color: white;
+	font-size: 4.0em;
+	text-align: center;
+	text-shadow: -0.1em 0.1em rgb(171, 0, 0);
+}
+#thumb1{
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 500px !important;
+
+}	
+
+#thumb1 p{
+	color: white;
+	text-align: center;
+	
+}
+
+.main-btn{
+    background-color: #990000;
+    border: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+#conteudos{
+	background-color: rgba(0, 0, 0, 0.9);  
+}
+
+#conteudos h1{
+	color: purple;
+	font-size: 4.0em;
+	text-align: center;
+}	
+
+#conteudos h2{
+	color: violet;
+	font-size: 2.0em;
+	text-align: center;
+	max-width: 70%;	
+}	
+
+#conteudos p{
+	color: white;
+	text-align: justify;
+	font-size: 1.0em;
+	max-width: 70%;	
+}	
+
+
+#imagemConteudo {
+	width: 100%;
+	height: 100%;
+}
+
+#imagemConteudo img{
+	max-width: 70%;
+}
+
+	
+@media screen and (max-width: 800px){
+	#cabecalho h1{
+		font-size: 5.0em;
+	}
+	
+	#cabecalho p{
+		font-size: 2.0em;
+	}
+	
+	#thumb1{
+		margin-left: 10%;
+	}
+	.bxslider h1{
+		font-size: 2.0em;
+	}
+	
+	.bxslider p{
+		font-size: 1.0;
+	}
+	
+	
+	.container h3{
+		font-size: 3.0em;;
+	}
+	
+	#conteudos h1{
+		font-size: 3.0em;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#cabecalho h1{
+		font-size: 3.0em;
+	}
+	
+	#cabecalho p{
+		font-size: 1.0em;
+	}
+	
+	#thumb1{
+		margin-left: 10%;
+		margin-right:10%;
+	}
+	.bxslider h1{
+		font-size: 2.em;
+	}
+	
+	.bxslider p{
+		font-size: 1.3em;
+	}
+	
+	.container h3{
+		font-size: .0em;;
+	}
+	
+	#areateste {
+		height: 250px;
+	}
+	
+	#areateste img{
+		max-width: 100%;
+		height: 300px;
+	}
+	
+	#conteudos h1{
+		font-size: 2.0em;
+	}
+}
